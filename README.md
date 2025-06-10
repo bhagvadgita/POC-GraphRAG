@@ -54,7 +54,7 @@ The backend server will start and be ready to handle requests.
    pnpm dev
    ```
 
-The frontend will be available at the URL provided in the terminal (typically `http://localhost:5173`).
+The frontend will be available at the URL provided in the terminal (typically `http://localhost:3000`).
 
 ## Project Structure
 

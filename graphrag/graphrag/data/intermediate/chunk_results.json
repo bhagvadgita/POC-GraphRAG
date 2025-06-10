@@ -1,0 +1,1291 @@
+[
+  [
+    {
+      "College of Business Administration": [
+        {
+          "entity_name": "College of Business Administration",
+          "entity_type": "organization",
+          "description": "A college focused on business education and administration.",
+          "chunk_id": "chunk_0",
+          "metadata": {
+            "chunk_id": "chunk_0"
+          }
+        }
+      ],
+      "The University of Texas at El Paso": [
+        {
+          "entity_name": "The University of Texas at El Paso",
+          "entity_type": "organization",
+          "description": "A university located in El Paso, Texas.",
+          "chunk_id": "chunk_0",
+          "metadata": {
+            "chunk_id": "chunk_0"
+          }
+        }
+      ]
+    },
+    {
+      "College of Business Administration->The University of Texas at El Paso": [
+        {
+          "src_id": "College of Business Administration",
+          "tgt_id": "The University of Texas at El Paso",
+          "description": "The College of Business Administration is a part of The University of Texas at El Paso.",
+          "keywords": "part of, located at",
+          "strength": "0.9"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "Finance": [
+        {
+          "entity_name": "Finance",
+          "entity_type": "<category>",
+          "description": "A broad term encompassing the study of money management and the process of acquiring funds. It is separated into personal finance, corporate finance, and public finance due to the funding needs of individuals, businesses, and government entities.",
+          "chunk_id": "chunk_1",
+          "metadata": {
+            "chunk_id": "chunk_1"
+          }
+        }
+      ],
+      "Individuals": [
+        {
+          "entity_name": "Individuals",
+          "entity_type": "<category>",
+          "description": "People who need funding to operate.",
+          "chunk_id": "chunk_1",
+          "metadata": {
+            "chunk_id": "chunk_1"
+          }
+        }
+      ],
+      "Businesses": [
+        {
+          "entity_name": "Businesses",
+          "entity_type": "<organization>",
+          "description": "Organizations that need funding to operate.",
+          "chunk_id": "chunk_1",
+          "metadata": {
+            "chunk_id": "chunk_1"
+          }
+        }
+      ],
+      "Government Entities": [
+        {
+          "entity_name": "Government Entities",
+          "entity_type": "<organization>",
+          "description": "Governmental bodies that require funding to operate.",
+          "chunk_id": "chunk_1",
+          "metadata": {
+            "chunk_id": "chunk_1"
+          }
+        }
+      ],
+      "Personal Finance": [
+        {
+          "entity_name": "Personal Finance",
+          "entity_type": "<category>",
+          "description": "A sub-category of finance dealing with the financial management of individuals.",
+          "chunk_id": "chunk_1",
+          "metadata": {
+            "chunk_id": "chunk_1"
+          }
+        }
+      ],
+      "Corporate Finance": [
+        {
+          "entity_name": "Corporate Finance",
+          "entity_type": "<category>",
+          "description": "A sub-category of finance dealing with the financial management of businesses.",
+          "chunk_id": "chunk_1",
+          "metadata": {
+            "chunk_id": "chunk_1"
+          }
+        }
+      ],
+      "Public Finance": [
+        {
+          "entity_name": "Public Finance",
+          "entity_type": "<category>",
+          "description": "A sub-category of finance dealing with the financial management of government entities.",
+          "chunk_id": "chunk_1",
+          "metadata": {
+            "chunk_id": "chunk_1"
+          }
+        }
+      ]
+    },
+    {
+      "Finance-><Personal Finance": [
+        {
+          "src_id": "Finance",
+          "tgt_id": "<Personal Finance",
+          "description": "<Personal Finance is a sub-category of Finance.",
+          "keywords": "<sub-category, part of>",
+          "strength": "0.75"
+        }
+      ],
+      "Finance-><Corporate Finance": [
+        {
+          "src_id": "Finance",
+          "tgt_id": "<Corporate Finance",
+          "description": "<Corporate Finance is a sub-category of Finance.",
+          "keywords": "<sub-category, part of>",
+          "strength": "0.75"
+        }
+      ],
+      "Finance-><Public Finance": [
+        {
+          "src_id": "Finance",
+          "tgt_id": "<Public Finance",
+          "description": "<Public Finance is a sub-category of Finance.",
+          "keywords": "<sub-category, part of>",
+          "strength": "0.75"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "Finance": [
+        {
+          "entity_name": "Finance",
+          "entity_type": "<category>",
+          "description": "A field of study focused on managing money, investments, and financial resources. It involves analyzing financial data, providing financial advice, and managing financial risk.",
+          "chunk_id": "chunk_2",
+          "metadata": {
+            "chunk_id": "chunk_2"
+          }
+        }
+      ]
+    },
+    {}
+  ],
+  [
+    {
+      "Finance Majors": [
+        {
+          "entity_name": "Finance Majors",
+          "entity_type": "<category>",
+          "description": "Students majoring in finance, typically possessing attention to detail, teamwork skills, and strong math skills. They are often self-driven, highly analytical, and goal-oriented.",
+          "chunk_id": "chunk_3",
+          "metadata": {
+            "chunk_id": "chunk_3"
+          }
+        }
+      ]
+    },
+    {}
+  ],
+  [
+    {
+      "Financial Analyst": [
+        {
+          "entity_name": "Financial Analyst",
+          "entity_type": "organization",
+          "description": "Helps businesses and individuals decide how to invest their money. Assesses the performance of stocks, bonds, and other types of investments. Studies financial statements and analyzes sales, costs, tax rates to determine a company\u2019s value by projecting its future earnings.",
+          "chunk_id": "chunk_4",
+          "metadata": {
+            "chunk_id": "chunk_4"
+          }
+        }
+      ],
+      "General Finance": [
+        {
+          "entity_name": "General Finance",
+          "entity_type": "category",
+          "description": "Provides students with",
+          "chunk_id": "chunk_4",
+          "metadata": {
+            "chunk_id": "chunk_4"
+          }
+        }
+      ]
+    },
+    {
+      "Financial Analyst->General Finance": [
+        {
+          "src_id": "Financial Analyst",
+          "tgt_id": "General Finance",
+          "description": "Comparison of roles and responsibilities between financial analysts and general finance.",
+          "keywords": "roles, responsibilities, comparison",
+          "strength": "0.9"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "Finance": [
+        {
+          "entity_name": "Finance",
+          "entity_type": "<category>",
+          "description": "A field of study concerning the management of money and investments.",
+          "chunk_id": "chunk_5",
+          "metadata": {
+            "chunk_id": "chunk_5"
+          }
+        }
+      ],
+      "Business": [
+        {
+          "entity_name": "Business",
+          "entity_type": "<category>",
+          "description": "The activity of making, buying, or selling goods or providing services in exchange for money.",
+          "chunk_id": "chunk_5",
+          "metadata": {
+            "chunk_id": "chunk_5"
+          }
+        }
+      ],
+      "Non-Financial Corporations": [
+        {
+          "entity_name": "Non-Financial Corporations",
+          "entity_type": "<organization>",
+          "description": "Companies that are not primarily involved in financial services.",
+          "chunk_id": "chunk_5",
+          "metadata": {
+            "chunk_id": "chunk_5"
+          }
+        }
+      ],
+      "Financial Services Industry": [
+        {
+          "entity_name": "Financial Services Industry",
+          "entity_type": "<organization>",
+          "description": "Companies that provide financial services to clients or members.",
+          "chunk_id": "chunk_5",
+          "metadata": {
+            "chunk_id": "chunk_5"
+          }
+        }
+      ],
+      "Energy Companies": [
+        {
+          "entity_name": "Energy Companies",
+          "entity_type": "<organization>",
+          "description": "Companies involved in the production and distribution of energy.",
+          "chunk_id": "chunk_5",
+          "metadata": {
+            "chunk_id": "chunk_5"
+          }
+        }
+      ],
+      "Small Businesses": [
+        {
+          "entity_name": "Small Businesses",
+          "entity_type": "<organization>",
+          "description": "Privately owned corporations, partnerships, or sole proprietorships that have fewer employees and/or less annual revenue than a corporation or regular-sized business.",
+          "chunk_id": "chunk_5",
+          "metadata": {
+            "chunk_id": "chunk_5"
+          }
+        }
+      ],
+      "Real Estate Firms": [
+        {
+          "entity_name": "Real Estate Firms",
+          "entity_type": "<organization>",
+          "description": "Companies involved in buying, selling, and managing properties.",
+          "chunk_id": "chunk_5",
+          "metadata": {
+            "chunk_id": "chunk_5"
+          }
+        }
+      ]
+    },
+    {
+      "Non-Financial Corporations-><Finance": [
+        {
+          "src_id": "Non-Financial Corporations",
+          "tgt_id": "<Finance",
+          "description": "Financial positions within non-financial corporations",
+          "keywords": "financial positions, corporations",
+          "strength": "0.8>"
+        }
+      ],
+      "Financial Services Industry-><Finance": [
+        {
+          "src_id": "Financial Services Industry",
+          "tgt_id": "<Finance",
+          "description": "Financial positions within the financial services industry",
+          "keywords": "financial positions, industry",
+          "strength": "0.8>"
+        }
+      ],
+      "Energy Companies-><Finance": [
+        {
+          "src_id": "Energy Companies",
+          "tgt_id": "<Finance",
+          "description": "Financial positions within energy companies",
+          "keywords": "financial positions, energy",
+          "strength": "0.8>"
+        }
+      ],
+      "Small Businesses-><Finance": [
+        {
+          "src_id": "Small Businesses",
+          "tgt_id": "<Finance",
+          "description": "Financial positions within small businesses",
+          "keywords": "financial positions, small businesses",
+          "strength": "0.8>"
+        }
+      ],
+      "Real Estate Firms-><Finance": [
+        {
+          "src_id": "Real Estate Firms",
+          "tgt_id": "<Finance",
+          "description": "Financial positions within real estate firms",
+          "keywords": "financial positions, real estate",
+          "strength": "0.8>"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "Career Paths in Finance": [
+        {
+          "entity_name": "Career Paths in Finance",
+          "entity_type": "<category>",
+          "description": "A general category describing different potential job opportunities and specializations within the field of finance.",
+          "chunk_id": "chunk_6",
+          "metadata": {
+            "chunk_id": "chunk_6"
+          }
+        }
+      ],
+      "Investment Banking": [
+        {
+          "entity_name": "Investment Banking",
+          "entity_type": "<category>",
+          "description": "A specific area within finance focused on raising capital for companies and advising on mergers and acquisitions.",
+          "chunk_id": "chunk_6",
+          "metadata": {
+            "chunk_id": "chunk_6"
+          }
+        }
+      ],
+      "Personal Finance": [
+        {
+          "entity_name": "Personal Finance",
+          "entity_type": "<category>",
+          "description": "A branch of finance related to managing an individual's or family's financial resources, including budgeting, saving, and investing.",
+          "chunk_id": "chunk_6",
+          "metadata": {
+            "chunk_id": "chunk_6"
+          }
+        }
+      ],
+      "Asset Management": [
+        {
+          "entity_name": "Asset Management",
+          "entity_type": "<category>",
+          "description": "A segment of finance concerned with managing investments on behalf of individuals or institutions.",
+          "chunk_id": "chunk_6",
+          "metadata": {
+            "chunk_id": "chunk_6"
+          }
+        }
+      ],
+      "Sales and Trading": [
+        {
+          "entity_name": "Sales and Trading",
+          "entity_type": "<category>",
+          "description": "A division in financial institutions involved in buying and selling securities and other financial instruments.",
+          "chunk_id": "chunk_6",
+          "metadata": {
+            "chunk_id": "chunk_6"
+          }
+        }
+      ],
+      "Investment Research": [
+        {
+          "entity_name": "Investment Research",
+          "entity_type": "<category>",
+          "description": "The process of analyzing investments to make informed decisions.",
+          "chunk_id": "chunk_6",
+          "metadata": {
+            "chunk_id": "chunk_6"
+          }
+        }
+      ],
+      "Financial Advisory": [
+        {
+          "entity_name": "Financial Advisory",
+          "entity_type": "<category>",
+          "description": "Providing expert advice on financial matters to individuals or businesses.",
+          "chunk_id": "chunk_6",
+          "metadata": {
+            "chunk_id": "chunk_6"
+          }
+        }
+      ],
+      "Portfolio Management": [
+        {
+          "entity_name": "Portfolio Management",
+          "entity_type": "<category>",
+          "description": "The process of selecting and managing a collection of investments to meet specific financial goals.",
+          "chunk_id": "chunk_6",
+          "metadata": {
+            "chunk_id": "chunk_6"
+          }
+        }
+      ],
+      "Corporate Finance": [
+        {
+          "entity_name": "Corporate Finance",
+          "entity_type": "<category>",
+          "description": "The area of finance dealing with funding sources and the capital structure of corporations.",
+          "chunk_id": "chunk_6",
+          "metadata": {
+            "chunk_id": "chunk_6"
+          }
+        }
+      ],
+      "Insurance": [
+        {
+          "entity_name": "Insurance",
+          "entity_type": "<category>",
+          "description": "A financial product that protects against risk.",
+          "chunk_id": "chunk_6",
+          "metadata": {
+            "chunk_id": "chunk_6"
+          }
+        }
+      ]
+    },
+    {}
+  ],
+  [
+    {},
+    {}
+  ],
+  [
+    {
+      "Insurance Carriers": [
+        {
+          "entity_name": "Insurance Carriers",
+          "entity_type": "organization",
+          "description": "Companies that provide insurance services to individuals or other organizations.",
+          "chunk_id": "chunk_8",
+          "metadata": {
+            "chunk_id": "chunk_8"
+          }
+        }
+      ],
+      "Financial Managers": [
+        {
+          "entity_name": "Financial Managers",
+          "entity_type": "person",
+          "description": "Individuals who manage the finances of an organization, including budgeting, financial reporting, and investment management. Held about 532,100 jobs in 2012",
+          "chunk_id": "chunk_8",
+          "metadata": {
+            "chunk_id": "chunk_8"
+          }
+        }
+      ],
+      "Banks": [
+        {
+          "entity_name": "Banks",
+          "entity_type": "organization",
+          "description": "Financial institutions that accept deposits and make loans.",
+          "chunk_id": "chunk_8",
+          "metadata": {
+            "chunk_id": "chunk_8"
+          }
+        }
+      ],
+      "Insurance Companies": [
+        {
+          "entity_name": "Insurance Companies",
+          "entity_type": "organization",
+          "description": "Companies that provide insurance services.",
+          "chunk_id": "chunk_8",
+          "metadata": {
+            "chunk_id": "chunk_8"
+          }
+        }
+      ]
+    },
+    {
+      "Financial Managers->Banks": [
+        {
+          "src_id": "Financial Managers",
+          "tgt_id": "Banks",
+          "description": "Financial managers work in banks.",
+          "keywords": "work in, industry",
+          "strength": "0.8"
+        }
+      ],
+      "Financial Managers->Insurance Companies": [
+        {
+          "src_id": "Financial Managers",
+          "tgt_id": "Insurance Companies",
+          "description": "Financial managers work in insurance companies.",
+          "keywords": "work in, industry",
+          "strength": "0.8"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "UTEP\u2019s COBA": [
+        {
+          "entity_name": "UTEP\u2019s COBA",
+          "entity_type": "organization",
+          "description": "College of Business Administration at the University of Texas at El Paso",
+          "chunk_id": "chunk_9",
+          "metadata": {
+            "chunk_id": "chunk_9"
+          }
+        }
+      ],
+      "General Finance": [
+        {
+          "entity_name": "General Finance",
+          "entity_type": "category",
+          "description": "A general category of finance courses.",
+          "chunk_id": "chunk_9",
+          "metadata": {
+            "chunk_id": "chunk_9"
+          }
+        }
+      ],
+      "FIN 3315 Investments": [
+        {
+          "entity_name": "FIN 3315 Investments",
+          "entity_type": "category",
+          "description": "Course on investments.",
+          "chunk_id": "chunk_9",
+          "metadata": {
+            "chunk_id": "chunk_9"
+          }
+        }
+      ],
+      "FIN 4310 Managerial Finance": [
+        {
+          "entity_name": "FIN 4310 Managerial Finance",
+          "entity_type": "category",
+          "description": "Course on managerial finance.",
+          "chunk_id": "chunk_9",
+          "metadata": {
+            "chunk_id": "chunk_9"
+          }
+        }
+      ],
+      "Financial Analysts": [
+        {
+          "entity_name": "Financial Analysts",
+          "entity_type": "category",
+          "description": "A category of courses for financial analysts.",
+          "chunk_id": "chunk_9",
+          "metadata": {
+            "chunk_id": "chunk_9"
+          }
+        }
+      ],
+      "FIN 4315 Portfolio Analysis": [
+        {
+          "entity_name": "FIN 4315 Portfolio Analysis",
+          "entity_type": "category",
+          "description": "Course on portfolio analysis.",
+          "chunk_id": "chunk_9",
+          "metadata": {
+            "chunk_id": "chunk_9"
+          }
+        }
+      ],
+      "FIN 4316 Analysis of Derivatives": [
+        {
+          "entity_name": "FIN 4316 Analysis of Derivatives",
+          "entity_type": "category",
+          "description": "Course on analysis of derivatives.",
+          "chunk_id": "chunk_9",
+          "metadata": {
+            "chunk_id": "chunk_9"
+          }
+        }
+      ],
+      "FIN 4318 Financial Analysis of the Firm and Its Valuation": [
+        {
+          "entity_name": "FIN 4318 Financial Analysis of the Firm and Its Valuation",
+          "entity_type": "category",
+          "description": "Course on financial analysis and valuation of firms.",
+          "chunk_id": "chunk_9",
+          "metadata": {
+            "chunk_id": "chunk_9"
+          }
+        }
+      ],
+      "FIN 4325 International Finance": [
+        {
+          "entity_name": "FIN 4325 International Finance",
+          "entity_type": "category",
+          "description": "Course on international finance.",
+          "chunk_id": "chunk_9",
+          "metadata": {
+            "chunk_id": "chunk_9"
+          }
+        }
+      ]
+    },
+    {
+      "UTEP\u2019s COBA->General Finance": [
+        {
+          "src_id": "UTEP\u2019s COBA",
+          "tgt_id": "General Finance",
+          "description": "General Finance is a major requirement at UTEP\u2019s COBA",
+          "keywords": "major requirement, course",
+          "strength": "0.8"
+        }
+      ],
+      "UTEP\u2019s COBA->Financial Analysts": [
+        {
+          "src_id": "UTEP\u2019s COBA",
+          "tgt_id": "Financial Analysts",
+          "description": "Financial Analysts is a major requirement at UTEP\u2019s COBA",
+          "keywords": "major requirement, course",
+          "strength": "0.8"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "SEE ONLINE CATALOG": [
+        {
+          "entity_name": "SEE ONLINE CATALOG",
+          "entity_type": "organization",
+          "description": "Refers to an online catalog that provides course descriptions.",
+          "chunk_id": "chunk_10",
+          "metadata": {
+            "chunk_id": "chunk_10"
+          }
+        }
+      ],
+      "degreeplans.utep.edu": [
+        {
+          "entity_name": "degreeplans.utep.edu",
+          "entity_type": "organization",
+          "description": "A website address or domain related to UTEP, likely hosting degree plans.",
+          "chunk_id": "chunk_10",
+          "metadata": {
+            "chunk_id": "chunk_10"
+          }
+        }
+      ]
+    },
+    {}
+  ],
+  [
+    {
+      "Personal Financial Planner": [
+        {
+          "entity_name": "Personal Financial Planner",
+          "entity_type": "category",
+          "description": "A professional who helps individuals manage their finances, including investments, retirement planning, and insurance.",
+          "chunk_id": "chunk_11",
+          "metadata": {
+            "chunk_id": "chunk_11"
+          }
+        }
+      ],
+      "Commercial Bank Management": [
+        {
+          "entity_name": "Commercial Bank Management",
+          "entity_type": "category",
+          "description": "Overseeing the operations and functions of a commercial bank, including lending, customer service, and regulatory compliance.",
+          "chunk_id": "chunk_11",
+          "metadata": {
+            "chunk_id": "chunk_11"
+          }
+        }
+      ],
+      "Savings and Loan Management": [
+        {
+          "entity_name": "Savings and Loan Management",
+          "entity_type": "category",
+          "description": "Managing the operations of a savings and loan association, focusing on deposit accounts, mortgage lending, and customer service.",
+          "chunk_id": "chunk_11",
+          "metadata": {
+            "chunk_id": "chunk_11"
+          }
+        }
+      ],
+      "Investment Banking": [
+        {
+          "entity_name": "Investment Banking",
+          "entity_type": "category",
+          "description": "A financial service that involves underwriting and issuing new securities, advising on mergers and acquisitions, and providing other financial advisory services to corporations and governments.",
+          "chunk_id": "chunk_11",
+          "metadata": {
+            "chunk_id": "chunk_11"
+          }
+        }
+      ],
+      "Sales & Trading": [
+        {
+          "entity_name": "Sales & Trading",
+          "entity_type": "category",
+          "description": "The business of buying and selling securities and other financial instruments on behalf of clients or the firm's own account.",
+          "chunk_id": "chunk_11",
+          "metadata": {
+            "chunk_id": "chunk_11"
+          }
+        }
+      ],
+      "Stock Brokerage": [
+        {
+          "entity_name": "Stock Brokerage",
+          "entity_type": "category",
+          "description": "A firm that buys and sells stocks and other securities for individual and institutional investors.",
+          "chunk_id": "chunk_11",
+          "metadata": {
+            "chunk_id": "chunk_11"
+          }
+        }
+      ],
+      "Insurance": [
+        {
+          "entity_name": "Insurance",
+          "entity_type": "category",
+          "description": "A contract that protects against financial loss from specific events or perils.",
+          "chunk_id": "chunk_11",
+          "metadata": {
+            "chunk_id": "chunk_11"
+          }
+        }
+      ],
+      "Security Analysis": [
+        {
+          "entity_name": "Security Analysis",
+          "entity_type": "category",
+          "description": "The process of evaluating securities, such as stocks and bonds, to determine their investment potential.",
+          "chunk_id": "chunk_11",
+          "metadata": {
+            "chunk_id": "chunk_11"
+          }
+        }
+      ],
+      "Trust Management": [
+        {
+          "entity_name": "Trust Management",
+          "entity_type": "category",
+          "description": "Administering trusts and estates on behalf of beneficiaries, including managing assets and distributing funds.",
+          "chunk_id": "chunk_11",
+          "metadata": {
+            "chunk_id": "chunk_11"
+          }
+        }
+      ]
+    },
+    {}
+  ],
+  [
+    {},
+    {}
+  ],
+  [
+    {
+      "Federal Government": [
+        {
+          "entity_name": "Federal Government",
+          "entity_type": "organization",
+          "description": "A governmental body at the federal level. It experiences declining employment.",
+          "chunk_id": "chunk_13",
+          "metadata": {
+            "chunk_id": "chunk_13"
+          }
+        }
+      ]
+    },
+    {}
+  ],
+  [
+    {
+      "Lockheed Martin": [
+        {
+          "entity_name": "Lockheed Martin",
+          "entity_type": "organization",
+          "description": "American aerospace, arms, defense, information security, and technology corporation.",
+          "chunk_id": "chunk_14",
+          "metadata": {
+            "chunk_id": "chunk_14"
+          }
+        }
+      ],
+      "Bank of America": [
+        {
+          "entity_name": "Bank of America",
+          "entity_type": "organization",
+          "description": "Multinational investment bank and financial services company headquartered in Charlotte, North Carolina.",
+          "chunk_id": "chunk_14",
+          "metadata": {
+            "chunk_id": "chunk_14"
+          }
+        }
+      ],
+      "Census Bureau": [
+        {
+          "entity_name": "Census Bureau",
+          "entity_type": "organization",
+          "description": "A principal agency of the U.S. Federal Statistical System, responsible for producing data about the American people and economy.",
+          "chunk_id": "chunk_14",
+          "metadata": {
+            "chunk_id": "chunk_14"
+          }
+        }
+      ],
+      "JPMorgan Chase": [
+        {
+          "entity_name": "JPMorgan Chase",
+          "entity_type": "organization",
+          "description": "American multinational investment bank and financial services holding company headquartered in New York City.",
+          "chunk_id": "chunk_14",
+          "metadata": {
+            "chunk_id": "chunk_14"
+          }
+        }
+      ],
+      "IBM": [
+        {
+          "entity_name": "IBM",
+          "entity_type": "organization",
+          "description": "Multinational technology corporation headquartered in Armonk, New York.",
+          "chunk_id": "chunk_14",
+          "metadata": {
+            "chunk_id": "chunk_14"
+          }
+        }
+      ],
+      "Goldman Sachs": [
+        {
+          "entity_name": "Goldman Sachs",
+          "entity_type": "organization",
+          "description": "Multinational investment bank and financial services company headquartered in New York City.",
+          "chunk_id": "chunk_14",
+          "metadata": {
+            "chunk_id": "chunk_14"
+          }
+        }
+      ],
+      "Johnson & Johnson": [
+        {
+          "entity_name": "Johnson & Johnson",
+          "entity_type": "organization",
+          "description": "American multinational corporation founded in 1886 that develops medical devices, pharmaceuticals, and consumer packaged goods.",
+          "chunk_id": "chunk_14",
+          "metadata": {
+            "chunk_id": "chunk_14"
+          }
+        }
+      ]
+    },
+    {}
+  ],
+  [
+    {
+      "Lockheed Martin": [
+        {
+          "entity_name": "Lockheed Martin",
+          "entity_type": "organization",
+          "description": "A global technology company focused on aerospace, defense, security, and advanced technologies.",
+          "chunk_id": "chunk_15",
+          "metadata": {
+            "chunk_id": "chunk_15"
+          }
+        }
+      ],
+      "Edward Jones": [
+        {
+          "entity_name": "Edward Jones",
+          "entity_type": "organization",
+          "description": "A financial services firm providing investment, retirement, and insurance services.",
+          "chunk_id": "chunk_15",
+          "metadata": {
+            "chunk_id": "chunk_15"
+          }
+        }
+      ],
+      "Vanguard": [
+        {
+          "entity_name": "Vanguard",
+          "entity_type": "organization",
+          "description": "An investment management company offering a wide range of investment products and services, including mutual funds and ETFs.",
+          "chunk_id": "chunk_15",
+          "metadata": {
+            "chunk_id": "chunk_15"
+          }
+        }
+      ],
+      "El Paso Electric Company": [
+        {
+          "entity_name": "El Paso Electric Company",
+          "entity_type": "organization",
+          "description": "A public utility providing electricity to the El Paso, Texas region.",
+          "chunk_id": "chunk_15",
+          "metadata": {
+            "chunk_id": "chunk_15"
+          }
+        }
+      ],
+      "Wells Fargo": [
+        {
+          "entity_name": "Wells Fargo",
+          "entity_type": "organization",
+          "description": "A multinational financial services company providing banking, investment, mortgage, and other financial services.",
+          "chunk_id": "chunk_15",
+          "metadata": {
+            "chunk_id": "chunk_15"
+          }
+        }
+      ],
+      "UTEP": [
+        {
+          "entity_name": "UTEP",
+          "entity_type": "organization",
+          "description": "University of Texas at El Paso.",
+          "chunk_id": "chunk_15",
+          "metadata": {
+            "chunk_id": "chunk_15"
+          }
+        }
+      ]
+    },
+    {
+      "Lockheed Martin->UTEP": [
+        {
+          "src_id": "Lockheed Martin",
+          "tgt_id": "UTEP",
+          "description": "Lockheed Martin is one of the top hiring companies at UTEP.",
+          "keywords": "hiring, recruitment",
+          "strength": "0.8>"
+        }
+      ],
+      "Edward Jones->UTEP": [
+        {
+          "src_id": "Edward Jones",
+          "tgt_id": "UTEP",
+          "description": "Edward Jones is one of the top hiring companies at UTEP.",
+          "keywords": "hiring, recruitment",
+          "strength": "0.8>"
+        }
+      ],
+      "Vanguard->UTEP": [
+        {
+          "src_id": "Vanguard",
+          "tgt_id": "UTEP",
+          "description": "Vanguard is one of the top hiring companies at UTEP.",
+          "keywords": "hiring, recruitment",
+          "strength": "0.8>"
+        }
+      ],
+      "El Paso Electric Company->UTEP": [
+        {
+          "src_id": "El Paso Electric Company",
+          "tgt_id": "UTEP",
+          "description": "El Paso Electric Company is one of the top hiring companies at UTEP.",
+          "keywords": "hiring, recruitment",
+          "strength": "0.8>"
+        }
+      ],
+      "Wells Fargo->UTEP": [
+        {
+          "src_id": "Wells Fargo",
+          "tgt_id": "UTEP",
+          "description": "Wells Fargo is one of the top hiring companies at UTEP.",
+          "keywords": "hiring, recruitment",
+          "strength": "0.8>"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "UTEP": [
+        {
+          "entity_name": "UTEP",
+          "entity_type": "organization",
+          "description": "A university where collegiate student organizations are present.",
+          "chunk_id": "chunk_16",
+          "metadata": {
+            "chunk_id": "chunk_16"
+          }
+        }
+      ],
+      "Financial Management Association": [
+        {
+          "entity_name": "Financial Management Association",
+          "entity_type": "organization",
+          "description": "A student organization at UTEP focused on acting as a liaison between students and the business community, providing opportunities for leadership, professional training, employment, and other professional development activities.",
+          "chunk_id": "chunk_16",
+          "metadata": {
+            "chunk_id": "chunk_16"
+          }
+        }
+      ],
+      "Association of Latino Professionals in Finance and Accounting": [
+        {
+          "entity_name": "Association of Latino Professionals in Finance and Accounting",
+          "entity_type": "organization",
+          "description": "A student organization focused on creating opportunities, adding value, and building relationships for its members, the community, and its business partners.",
+          "chunk_id": "chunk_16",
+          "metadata": {
+            "chunk_id": "chunk_16"
+          }
+        }
+      ]
+    },
+    {
+      "Financial Management Association->UTEP": [
+        {
+          "src_id": "Financial Management Association",
+          "tgt_id": "UTEP",
+          "description": "The Financial Management Association is a student organization located at UTEP.",
+          "keywords": "student organization, located at",
+          "strength": "0.9"
+        }
+      ],
+      "Association of Latino Professionals in Finance and Accounting->UTEP": [
+        {
+          "src_id": "Association of Latino Professionals in Finance and Accounting",
+          "tgt_id": "UTEP",
+          "description": "The Association of Latino Professionals in Finance and Accounting is a student organization located at UTEP.",
+          "keywords": "student organization, located at",
+          "strength": "0.9"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "Latino Leadership": [
+        {
+          "entity_name": "Latino Leadership",
+          "entity_type": "organization",
+          "description": "An organization focused on Latino leadership development.",
+          "chunk_id": "chunk_17",
+          "metadata": {
+            "chunk_id": "chunk_17"
+          }
+        }
+      ]
+    },
+    {}
+  ],
+  [
+    {
+      "Financial Management Association": [
+        {
+          "entity_name": "Financial Management Association",
+          "entity_type": "organization",
+          "description": "An organization focused on financial management.",
+          "chunk_id": "chunk_18",
+          "metadata": {
+            "chunk_id": "chunk_18"
+          }
+        }
+      ],
+      "Association of Latino Professionals in Finance and Accounting": [
+        {
+          "entity_name": "Association of Latino Professionals in Finance and Accounting",
+          "entity_type": "organization",
+          "description": "An organization for Latino professionals in finance and accounting.",
+          "chunk_id": "chunk_18",
+          "metadata": {
+            "chunk_id": "chunk_18"
+          }
+        }
+      ]
+    },
+    {
+      "Financial Management Association->Association of Latino Professionals in Finance and Accounting": [
+        {
+          "src_id": "Financial Management Association",
+          "tgt_id": "Association of Latino Professionals in Finance and Accounting",
+          "description": "Two distinct organizations mentioned together.",
+          "keywords": "mention, association",
+          "strength": "0.5"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "\"Student Organization\"": [
+        {
+          "entity_name": "\"Student Organization\"",
+          "entity_type": "\"organization\"",
+          "description": "\"A group of students united for a common purpose, often related to professional development, social activities, or community service.\"",
+          "chunk_id": "chunk_19",
+          "metadata": {
+            "chunk_id": "chunk_19"
+          }
+        }
+      ]
+    },
+    {
+      "\"Student Organization\"->\"business professionals\"": [
+        {
+          "src_id": "\"Student Organization\"",
+          "tgt_id": "\"business professionals\"",
+          "description": "\"Student Organizations often provide opportunities to meet and network with business professionals.\"",
+          "keywords": "\"networking, meet, professionals\"",
+          "strength": "0.7"
+        }
+      ],
+      "\"Student Organization\"->\"leadership\"": [
+        {
+          "src_id": "\"Student Organization\"",
+          "tgt_id": "\"leadership\"",
+          "description": "\"Student Organizations help students build leadership skills through various activities and roles.\"",
+          "keywords": "\"leadership, skills, build\"",
+          "strength": "0.8"
+        }
+      ],
+      "\"Student Organization\"->\"business skills\"": [
+        {
+          "src_id": "\"Student Organization\"",
+          "tgt_id": "\"business skills\"",
+          "description": "\"Student Organizations provide opportunities to develop business skills through workshops, projects, and networking events.\"",
+          "keywords": "\"business skills, develop, opportunities\"",
+          "strength": "0.8"
+        }
+      ],
+      "\"Student Organization\"->\"friends\"": [
+        {
+          "src_id": "\"Student Organization\"",
+          "tgt_id": "\"friends\"",
+          "description": "\"Student Organizations facilitate making friends with common career goals.\"",
+          "keywords": "\"friends, career goals, common\"",
+          "strength": "0.7"
+        }
+      ],
+      "\"Student Organization\"->\"company\"": [
+        {
+          "src_id": "\"Student Organization\"",
+          "tgt_id": "\"company\"",
+          "description": "\"Student Organizations arrange company tours for their members.\"",
+          "keywords": "\"company tours, tours, arrange\"",
+          "strength": "0.6"
+        }
+      ],
+      "\"Student Organization\"->\"social networking events\"": [
+        {
+          "src_id": "\"Student Organization\"",
+          "tgt_id": "\"social networking events\"",
+          "description": "\"Student Organizations organize social networking events for their members.\"",
+          "keywords": "\"social networking, events, organize\"",
+          "strength": "0.9"
+        }
+      ],
+      "\"Student Organization\"->\"community\"": [
+        {
+          "src_id": "\"Student Organization\"",
+          "tgt_id": "\"community\"",
+          "description": "\"Student Organizations engage in community service and make a difference.\"",
+          "keywords": "\"community, service, engage\"",
+          "strength": "0.7"
+        }
+      ],
+      "\"Student Organization\"->\"national conferences\"": [
+        {
+          "src_id": "\"Student Organization\"",
+          "tgt_id": "\"national conferences\"",
+          "description": "\"Student Organizations participate in national conferences and competitions.\"",
+          "keywords": "\"conferences, competitions, participate\"",
+          "strength": "0.8"
+        }
+      ],
+      "\"Student Organization\"->\"Internship\"": [
+        {
+          "src_id": "\"Student Organization\"",
+          "tgt_id": "\"Internship\"",
+          "description": "\"Student Organizations may provide information or access to internship opportunities.\"",
+          "keywords": "\"internship, opportunities, access\"",
+          "strength": "0.6"
+        }
+      ],
+      "\"Student Organization\"->\"dream job\"": [
+        {
+          "src_id": "\"Student Organization\"",
+          "tgt_id": "\"dream job\"",
+          "description": "\"Student Organizations may provide support and resources to secure a dream job.\"",
+          "keywords": "\"dream job, secure, support\"",
+          "strength": "0.5"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "Economics and Finance Department": [
+        {
+          "entity_name": "Economics and Finance Department",
+          "entity_type": "organization",
+          "description": "Academic department focusing on economics and finance.",
+          "chunk_id": "chunk_20",
+          "metadata": {
+            "chunk_id": "chunk_20"
+          }
+        }
+      ],
+      "Business Room 236": [
+        {
+          "entity_name": "Business Room 236",
+          "entity_type": "geo",
+          "description": "Location of the Economics and Finance Department.",
+          "chunk_id": "chunk_20",
+          "metadata": {
+            "chunk_id": "chunk_20"
+          }
+        }
+      ],
+      "Dr. Tim Roth": [
+        {
+          "entity_name": "Dr. Tim Roth",
+          "entity_type": "person",
+          "description": "Department Chair of the Economics and Finance Department.",
+          "chunk_id": "chunk_20",
+          "metadata": {
+            "chunk_id": "chunk_20"
+          }
+        }
+      ],
+      "Nancy Vigil": [
+        {
+          "entity_name": "Nancy Vigil",
+          "entity_type": "person",
+          "description": "Administrative Assistant in the Economics and Finance Department.",
+          "chunk_id": "chunk_20",
+          "metadata": {
+            "chunk_id": "chunk_20"
+          }
+        }
+      ]
+    },
+    {
+      "Economics and Finance Department->Dr. Tim Roth": [
+        {
+          "src_id": "Economics and Finance Department",
+          "tgt_id": "Dr. Tim Roth",
+          "description": "Dr. Tim Roth is the Department Chair of the Economics and Finance Department.",
+          "keywords": "chair, department",
+          "strength": "0.9"
+        }
+      ],
+      "Economics and Finance Department->Nancy Vigil": [
+        {
+          "src_id": "Economics and Finance Department",
+          "tgt_id": "Nancy Vigil",
+          "description": "Nancy Vigil is the Administrative Assistant in the Economics and Finance Department.",
+          "keywords": "administrative assistant, department",
+          "strength": "0.8"
+        }
+      ]
+    }
+  ]
+]

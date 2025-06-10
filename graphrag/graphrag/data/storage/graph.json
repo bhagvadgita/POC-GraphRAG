@@ -1,0 +1,654 @@
+{
+  "nodes": {
+    "College of Business Administration": {
+      "entity_name": "College of Business Administration",
+      "entity_type": "organization",
+      "description": "A college focused on business education and administration.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "The University of Texas at El Paso": {
+      "entity_name": "The University of Texas at El Paso",
+      "entity_type": "organization",
+      "description": "A university located in El Paso, Texas.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Finance": {
+      "entity_name": "Finance",
+      "entity_type": "<category>",
+      "description": "A broad term encompassing the study of money management and the process of acquiring funds. It is separated into personal finance, corporate finance, and public finance due to the funding needs of individuals, businesses, and government entities. A field of study focused on managing money, investments, and financial resources. It involves analyzing financial data, providing financial advice, and managing financial risk. A field of study concerning the management of money and investments.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Individuals": {
+      "entity_name": "Individuals",
+      "entity_type": "<category>",
+      "description": "People who need funding to operate.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Businesses": {
+      "entity_name": "Businesses",
+      "entity_type": "<organization>",
+      "description": "Organizations that need funding to operate.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Government Entities": {
+      "entity_name": "Government Entities",
+      "entity_type": "<organization>",
+      "description": "Governmental bodies that require funding to operate.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Personal Finance": {
+      "entity_name": "Personal Finance",
+      "entity_type": "<category>",
+      "description": "A sub-category of finance dealing with the financial management of individuals. A branch of finance related to managing an individual's or family's financial resources, including budgeting, saving, and investing.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Corporate Finance": {
+      "entity_name": "Corporate Finance",
+      "entity_type": "<category>",
+      "description": "A sub-category of finance dealing with the financial management of businesses. The area of finance dealing with funding sources and the capital structure of corporations.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Public Finance": {
+      "entity_name": "Public Finance",
+      "entity_type": "<category>",
+      "description": "A sub-category of finance dealing with the financial management of government entities.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Finance Majors": {
+      "entity_name": "Finance Majors",
+      "entity_type": "<category>",
+      "description": "Students majoring in finance, typically possessing attention to detail, teamwork skills, and strong math skills. They are often self-driven, highly analytical, and goal-oriented.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Financial Analyst": {
+      "entity_name": "Financial Analyst",
+      "entity_type": "organization",
+      "description": "Helps businesses and individuals decide how to invest their money. Assesses the performance of stocks, bonds, and other types of investments. Studies financial statements and analyzes sales, costs, tax rates to determine a company\u2019s value by projecting its future earnings.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "General Finance": {
+      "entity_name": "General Finance",
+      "entity_type": "category",
+      "description": "Provides students with A general category of finance courses.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Business": {
+      "entity_name": "Business",
+      "entity_type": "<category>",
+      "description": "The activity of making, buying, or selling goods or providing services in exchange for money.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Energy Companies": {
+      "entity_name": "Energy Companies",
+      "entity_type": "<organization>",
+      "description": "Companies involved in the production and distribution of energy.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Small Businesses": {
+      "entity_name": "Small Businesses",
+      "entity_type": "<organization>",
+      "description": "Privately owned corporations, partnerships, or sole proprietorships that have fewer employees and/or less annual revenue than a corporation or regular-sized business.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Real Estate Firms": {
+      "entity_name": "Real Estate Firms",
+      "entity_type": "<organization>",
+      "description": "Companies involved in buying, selling, and managing properties.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Financial Services Industry": {
+      "entity_name": "Financial Services Industry",
+      "entity_type": "<organization>",
+      "description": "Companies that provide financial services to clients or members.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Investment Banking": {
+      "entity_name": "Investment Banking",
+      "entity_type": "<category>",
+      "description": "A specific area within finance focused on raising capital for companies and advising on mergers and acquisitions. A financial service that involves underwriting and issuing new securities, advising on mergers and acquisitions, and providing other financial advisory services to corporations and governments.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Asset Management": {
+      "entity_name": "Asset Management",
+      "entity_type": "<category>",
+      "description": "A segment of finance concerned with managing investments on behalf of individuals or institutions.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Sales and Trading": {
+      "entity_name": "Sales and Trading",
+      "entity_type": "<category>",
+      "description": "A division in financial institutions involved in buying and selling securities and other financial instruments.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Investment Research": {
+      "entity_name": "Investment Research",
+      "entity_type": "<category>",
+      "description": "The process of analyzing investments to make informed decisions.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Financial Advisory": {
+      "entity_name": "Financial Advisory",
+      "entity_type": "<category>",
+      "description": "Providing expert advice on financial matters to individuals or businesses.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Portfolio Management": {
+      "entity_name": "Portfolio Management",
+      "entity_type": "<category>",
+      "description": "The process of selecting and managing a collection of investments to meet specific financial goals.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Insurance": {
+      "entity_name": "Insurance",
+      "entity_type": "<category>",
+      "description": "A financial product that protects against risk. A contract that protects against financial loss from specific events or perils.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Financial Analysts": {
+      "entity_name": "Financial Analysts",
+      "entity_type": "category",
+      "description": "A category of courses for financial analysts.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "New York City": {
+      "entity_name": "New York City",
+      "entity_type": "geo",
+      "description": "A major financial center where many financial analysts work at large financial institutions",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Financial Institutions": {
+      "entity_name": "Financial Institutions",
+      "entity_type": "organization",
+      "description": "Large organizations where many financial analysts work.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Insurance Carriers": {
+      "entity_name": "Insurance Carriers",
+      "entity_type": "organization",
+      "description": "Companies that provide insurance services to individuals or other organizations.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Government": {
+      "entity_name": "Government",
+      "entity_type": "organization",
+      "description": "The political system by which a country or community is administered and regulated.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Financial Managers": {
+      "entity_name": "Financial Managers",
+      "entity_type": "person",
+      "description": "Individuals who manage the finances of an organization, including budgeting, financial reporting, and investment management. Held about 532,100 jobs in 2012",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Banks": {
+      "entity_name": "Banks",
+      "entity_type": "organization",
+      "description": "Financial institutions that accept deposits and make loans.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Insurance Companies": {
+      "entity_name": "Insurance Companies",
+      "entity_type": "organization",
+      "description": "Companies that provide insurance services.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "UTEP\u2019s COBA": {
+      "entity_name": "UTEP\u2019s COBA",
+      "entity_type": "organization",
+      "description": "College of Business Administration at the University of Texas at El Paso",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "FIN 3315 Investments": {
+      "entity_name": "FIN 3315 Investments",
+      "entity_type": "category",
+      "description": "Course on investments.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "FIN 4310 Managerial Finance": {
+      "entity_name": "FIN 4310 Managerial Finance",
+      "entity_type": "category",
+      "description": "Course on managerial finance.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "FIN 4315 Portfolio Analysis": {
+      "entity_name": "FIN 4315 Portfolio Analysis",
+      "entity_type": "category",
+      "description": "Course on portfolio analysis.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "FIN 4316 Analysis of Derivatives": {
+      "entity_name": "FIN 4316 Analysis of Derivatives",
+      "entity_type": "category",
+      "description": "Course on analysis of derivatives.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "FIN 4318 Financial Analysis of the Firm and Its Valuation": {
+      "entity_name": "FIN 4318 Financial Analysis of the Firm and Its Valuation",
+      "entity_type": "category",
+      "description": "Course on financial analysis and valuation of firms.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "FIN 4325 International Finance": {
+      "entity_name": "FIN 4325 International Finance",
+      "entity_type": "category",
+      "description": "Course on international finance.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Majors": {
+      "entity_name": "Majors",
+      "entity_type": "category",
+      "description": "Academic specializations or fields of study that students can choose to focus on in their education. Majors typically involve a structured curriculum of courses and requirements designed to provide in-depth knowledge and skills in a specific area.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Online Catalog": {
+      "entity_name": "Online Catalog",
+      "entity_type": "category",
+      "description": "A digital repository or database containing detailed information about courses, programs, academic policies, and other relevant information for students and faculty. It serves as a comprehensive guide to the academic offerings and requirements of an educational institution.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Degreeplans.utep.edu": {
+      "entity_name": "Degreeplans.utep.edu",
+      "entity_type": "organization",
+      "description": "A website address, likely belonging to the University of Texas at El Paso (UTEP",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Personal Financial Planner": {
+      "entity_name": "Personal Financial Planner",
+      "entity_type": "category",
+      "description": "A professional who helps individuals manage their finances, including investments, retirement planning, and insurance.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Commercial Bank Management": {
+      "entity_name": "Commercial Bank Management",
+      "entity_type": "category",
+      "description": "Overseeing the operations and functions of a commercial bank, including lending, customer service, and regulatory compliance.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Savings and Loan Management": {
+      "entity_name": "Savings and Loan Management",
+      "entity_type": "category",
+      "description": "Managing the operations of a savings and loan association, focusing on deposit accounts, mortgage lending, and customer service.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Sales & Trading": {
+      "entity_name": "Sales & Trading",
+      "entity_type": "category",
+      "description": "The business of buying and selling securities and other financial instruments on behalf of clients or the firm's own account.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Stock Brokerage": {
+      "entity_name": "Stock Brokerage",
+      "entity_type": "category",
+      "description": "A firm that buys and sells stocks and other securities for individual and institutional investors.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Security Analysis": {
+      "entity_name": "Security Analysis",
+      "entity_type": "category",
+      "description": "The process of evaluating securities, such as stocks and bonds, to determine their investment potential.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Trust Management": {
+      "entity_name": "Trust Management",
+      "entity_type": "category",
+      "description": "Administering trusts and estates on behalf of beneficiaries, including managing assets and distributing funds.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Financial Examiners": {
+      "entity_name": "Financial Examiners",
+      "entity_type": "organization",
+      "description": "Employees who ensure compliance with financial regulations and assess the soundness of financial institutions. They typically work for government agencies or regulatory bodies.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "2012 to 2022": {
+      "entity_name": "2012 to 2022",
+      "entity_type": "event",
+      "description": "A period from 2012 to 2022 during which employment projections are made.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Federal Government": {
+      "entity_name": "Federal Government",
+      "entity_type": "organization",
+      "description": "A governmental body at the federal level. It experiences declining employment.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Lockheed Martin": {
+      "entity_name": "Lockheed Martin",
+      "entity_type": "organization",
+      "description": "American aerospace, arms, defense, information security, and technology corporation. A global technology company focused on aerospace, defense, security, and advanced technologies.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Bank of America": {
+      "entity_name": "Bank of America",
+      "entity_type": "organization",
+      "description": "Multinational investment bank and financial services company headquartered in Charlotte, North Carolina.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Census Bureau": {
+      "entity_name": "Census Bureau",
+      "entity_type": "organization",
+      "description": "A principal agency of the U.S. Federal Statistical System, responsible for producing data about the American people and economy.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "JPMorgan Chase": {
+      "entity_name": "JPMorgan Chase",
+      "entity_type": "organization",
+      "description": "American multinational investment bank and financial services holding company headquartered in New York City.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "IBM": {
+      "entity_name": "IBM",
+      "entity_type": "organization",
+      "description": "Multinational technology corporation headquartered in Armonk, New York.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Goldman Sachs": {
+      "entity_name": "Goldman Sachs",
+      "entity_type": "organization",
+      "description": "Multinational investment bank and financial services company headquartered in New York City.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Johnson & Johnson": {
+      "entity_name": "Johnson & Johnson",
+      "entity_type": "organization",
+      "description": "American multinational corporation founded in 1886 that develops medical devices, pharmaceuticals, and consumer packaged goods.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Cupertino": {
+      "entity_name": "Cupertino",
+      "entity_type": "geo",
+      "description": "A city in California, the headquarters of Apple Inc.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "California": {
+      "entity_name": "California",
+      "entity_type": "geo",
+      "description": "A state in the United States.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "iPhone 15": {
+      "entity_name": "iPhone 15",
+      "entity_type": "category",
+      "description": "A new smartphone product by Apple Inc.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "September 12th": {
+      "entity_name": "September 12th",
+      "entity_type": "event",
+      "description": "The date of the event where Apple Inc. announced the iPhone 15.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Tim Cook": {
+      "entity_name": "Tim Cook",
+      "entity_type": "person",
+      "description": "The CEO of Apple Inc.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Samsung": {
+      "entity_name": "Samsung",
+      "entity_type": "organization",
+      "description": "A technology company that competes with Apple Inc.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Galaxy Series": {
+      "entity_name": "Galaxy Series",
+      "entity_type": "category",
+      "description": "A product line of smartphones produced by Samsung, a competitor to Apple's iPhone.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "UTEP": {
+      "entity_name": "UTEP",
+      "entity_type": "organization",
+      "description": "University of Texas at El Paso. A university where collegiate student organizations are present.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Edward Jones": {
+      "entity_name": "Edward Jones",
+      "entity_type": "organization",
+      "description": "A financial services firm providing investment, retirement, and insurance services.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Vanguard": {
+      "entity_name": "Vanguard",
+      "entity_type": "organization",
+      "description": "An investment management company offering a wide range of investment products and services, including mutual funds and ETFs.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "El Paso Electric Company": {
+      "entity_name": "El Paso Electric Company",
+      "entity_type": "organization",
+      "description": "A public utility providing electricity to the El Paso, Texas region.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Wells Fargo": {
+      "entity_name": "Wells Fargo",
+      "entity_type": "organization",
+      "description": "A multinational financial services company providing banking, investment, mortgage, and other financial services.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Financial Management Association": {
+      "entity_name": "Financial Management Association",
+      "entity_type": "organization",
+      "description": "A student organization at UTEP focused on acting as a liaison between students and the business community, providing opportunities for leadership, professional training, employment, and other professional development activities. An organization focused on financial management.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Association of Latino Professionals in Finance and Accounting": {
+      "entity_name": "Association of Latino Professionals in Finance and Accounting",
+      "entity_type": "organization",
+      "description": "A student organization focused on creating opportunities, adding value, and building relationships for its members, the community, and its business partners. An organization for Latino professionals in finance and accounting.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Latino Leadership": {
+      "entity_name": "Latino Leadership",
+      "entity_type": "organization",
+      "description": "An organization focused on Latino leadership development.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "\"Student Organization\"": {
+      "entity_name": "\"Student Organization\"",
+      "entity_type": "\"organization\"",
+      "description": "\"A group of students united for a common purpose, often related to professional development, social activities, or community service.\"",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Economics and Finance Department": {
+      "entity_name": "Economics and Finance Department",
+      "entity_type": "organization",
+      "description": "Academic department focusing on economics and finance.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Business Room 236": {
+      "entity_name": "Business Room 236",
+      "entity_type": "geo",
+      "description": "Location of the Economics and Finance Department.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Dr. Tim Roth": {
+      "entity_name": "Dr. Tim Roth",
+      "entity_type": "person",
+      "description": "Department Chair of the Economics and Finance Department.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Nancy Vigil": {
+      "entity_name": "Nancy Vigil",
+      "entity_type": "person",
+      "description": "Administrative Assistant in the Economics and Finance Department.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "SEE ONLINE CATALOG": {
+      "entity_name": "SEE ONLINE CATALOG",
+      "entity_type": "organization",
+      "description": "Refers to an online catalog that provides course descriptions.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "<Financial Analysts>": {
+      "entity_name": "<Financial Analysts>",
+      "entity_type": "<organization>",
+      "description": "<People who analyze financial data and provide investment recommendations.>",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "<Financial Examiners>": {
+      "entity_name": "<Financial Examiners>",
+      "entity_type": "<organization>",
+      "description": "<People who examine financial records and practices to ensure compliance with regulations.>",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "<Latino Leadership>": {
+      "entity_name": "<Latino Leadership>",
+      "entity_type": "<organization>",
+      "description": "<An organization focused on Latino leadership.>",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Student Organization": {
+      "entity_name": "Student Organization",
+      "entity_type": "organization",
+      "description": "A group of students united by common interests or goals, providing opportunities for networking, skill-building, and professional development. Business Professionals",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Business Professionals": {
+      "entity_name": "Business Professionals",
+      "entity_type": "person",
+      "description": "Individuals working in various business fields, offering mentorship and networking opportunities to students.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Community": {
+      "entity_name": "Community",
+      "entity_type": "geo",
+      "description": "The local area or broader society where students can make a positive impact through volunteering or community service initiatives.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "National Conferences/Competitions": {
+      "entity_name": "National Conferences/Competitions",
+      "entity_type": "event",
+      "description": "Events where student organizations can compete and showcase their skills and knowledge on a national level.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Non-Financial Corporations": {
+      "entity_name": "Non-Financial Corporations",
+      "entity_type": "<organization>",
+      "description": "Companies that are not primarily involved in financial services.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "Career Paths in Finance": {
+      "entity_name": "Career Paths in Finance",
+      "entity_type": "<category>",
+      "description": "A general category describing different potential job opportunities and specializations within the field of finance.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    "degreeplans.utep.edu": {
+      "entity_name": "degreeplans.utep.edu",
+      "entity_type": "organization",
+      "description": "A website address or domain related to UTEP, likely hosting degree plans.",
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    }
+  },
+  "edges": {
+    " -> ": {
+      "src_id": " ",
+      "tgt_id": " ",
+      "description": "Comparison of roles and responsibilities between financial analysts and general finance.",
+      "keywords": "roles, responsibilities, comparison",
+      "strength": 0.9,
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    },
+    " ->-": {
+      "src_id": " ",
+      "tgt_id": "-",
+      "description": "<Public Finance is a sub-category of Finance.",
+      "keywords": "<sub-category, part of>",
+      "strength": 0.75,
+      "source_id": "unknown",
+      "file_path": "unknown_source"
+    }
+  }
+}

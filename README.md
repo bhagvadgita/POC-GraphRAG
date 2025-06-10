@@ -28,8 +28,9 @@ Follow the instructions below to set up and run the backend and frontend compone
    ```bash
    cd graphrag
    ```
-
-2. Start the backend server:
+2. Install python dependencies from `./graphrag/requirements.txt`
+   
+3. Start the backend server:
    ```bash
    python ./graphrag/api/server.py
    ```
